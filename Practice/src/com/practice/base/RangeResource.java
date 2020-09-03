@@ -8,8 +8,7 @@ public class RangeResource {
 		
 		
 		
-		
-		return null;
+				return null;
 	}
 
 }
