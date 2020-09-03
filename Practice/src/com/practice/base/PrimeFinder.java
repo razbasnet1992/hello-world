@@ -4,7 +4,6 @@ package com.practice.base;
  *
  * @author Duke Software Team 
  */
-import edu.duke.*;
 import java.io.*;
 
 public class PrimeFinder {
@@ -26,12 +25,8 @@ public class PrimeFinder {
 	}
 
 	public void testPrimes() {
-		RangeResource rr = new RangeResource(2, 200);
-		for (int value : rr.sequence()){
-			if (isPrime(value)) {
-				System.out.println(value + "\t is prime");
-			}
-		}
+		RangeResource rr = new RangeResource();
+		
 	}
 
 }
