@@ -1,10 +1,4 @@
 package com.practice.base;
-/**
- * For a given number, determines whether or not it is prime.
- *
- * @author Duke Software Team 
- */
-import java.io.*;
 
 public class PrimeFinder {
 	public boolean isPrime(int num) {

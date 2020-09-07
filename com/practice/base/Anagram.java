@@ -1,4 +1,4 @@
-package Practice.src.com.practice.base;
+package com.practice.base;
 
 import java.util.Arrays;
 
