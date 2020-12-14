@@ -14,6 +14,7 @@ public class ReadFile {
 		public void readFile(int year) throws FileNotFoundException {
 		String fname = "data/yob " + year + ".txt";
 		FileReader fr = new FileReader(fname);
+		System.out.println(fr);
 	}
 
 }
